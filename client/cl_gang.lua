@@ -15,7 +15,7 @@ Citizen.CreateThread(function()
              local GangBlip = Citizen.InvokeNative(0x554D9D53F696D002, 1664425300, v.coords)
              SetBlipSprite(GangBlip, GetHashKey("blip_honor_bad"), true)
              SetBlipScale(GangBlip, 0.2)
-			 Citizen.InvokeNative(0x9CB1A1623062F402, GangBlip, v.name)
+             Citizen.InvokeNative(0x9CB1A1623062F402, GangBlip, v.name)
          end
      end
 end)

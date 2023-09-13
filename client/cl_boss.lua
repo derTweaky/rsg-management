@@ -13,9 +13,9 @@ Citizen.CreateThread(function()
          })
          if v.showblip == true then
              local BossBlip = Citizen.InvokeNative(0x554D9D53F696D002, 1664425300, v.coords)
-			 SetBlipSprite(BossBlip, GetHashKey("blip_honor_good"), true)
+             SetBlipSprite(BossBlip, GetHashKey("blip_honor_good"), true)
              SetBlipScale(BossBlip, 0.2)
-			 Citizen.InvokeNative(0x9CB1A1623062F402, BossBlip, v.name)
+             Citizen.InvokeNative(0x9CB1A1623062F402, BossBlip, v.name)
          end
      end
 end)
