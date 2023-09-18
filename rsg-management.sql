@@ -11,8 +11,6 @@ KEY `type` (`type`)
 INSERT INTO `management_funds` (`job_name`, `amount`, `type`) VALUES
 ('police', 0, 'boss'),
 ('medic', 0, 'boss'),
-('valweaponsmith', 0, 'boss'),
-('rhoweaponsmith', 0, 'boss'),
 ('valsaloontender', 0, 'boss'),
 ('blasaloontender', 0, 'boss'),
 ('rhosaloontender', 0, 'boss'),
@@ -33,7 +31,7 @@ INSERT INTO `management_funds` (`job_name`, `amount`, `type`) VALUES
 ('govenor2', 0, 'boss'),
 ('govenor3', 0, 'boss'),
 ('govenor4', 0, 'boss'),
-('govenor5', 0, 'boss')
+('govenor5', 0, 'boss'),
 ('valweaponsmith', 0, 'boss'),
 ('rhoweaponsmith', 0, 'boss'),
 ('stdweaponsmith', 0, 'boss'),
